@@ -11,7 +11,7 @@ const mysql = require('mysql')
 
 const connection = mysql.createConnection(
     {
-        host:'blogsdb.czatqolo4czl.ap-south-1.rds.amazonaws.com',
+        host:'demoappdb.czatqolo4czl.ap-south-1.rds.amazonaws.com',
         user:'root',
         password:'password',
         database:'blogsdb',
